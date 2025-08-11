@@ -45,6 +45,9 @@
             background-color: #000;
             color: #fff;
         }
+        .socialMedia{
+            text-align: center;
+        }
         @media (max-width:400px) {
             header{
                 display: grid;
@@ -69,11 +72,22 @@
             <h4>Owner</h4>
             <p>57/A, Shyamkamal Agrawal Market, Moghibai Road, Opp. Railway Station, VileParle(E), Mumbai-400 057</p>
             <button onclick="whatsapp()">Click to contact</button>
+            <div class="socialMedia">
+                <h3>Visit our Social Media</h3>
+                <button class="social" onclick="insta()">Visit our Instagram</button>
+                <button class="social" onclick="Facebook()">Visit our Facebook</button>
+            </div>
         </div>
     </div>
     <script>
         function whatsapp() {
             window.location.href = "https://wa.me/919967112828"
+        }
+        function insta(){
+            window.location.href = "https://www.instagram.com/shubhlabh_ethnicwear_studio?igsh=MTJiaTBqYmVub3BueQ=="
+        }
+        function Facebook(){
+            window.location.href = "https://www.facebook.com/share/1CdgZ7ab4t/"
         }
     </script>
 </body>
